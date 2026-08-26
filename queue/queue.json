@@ -1,0 +1,553 @@
+{
+  "handle": "@set.accel",
+  "schema_version": 1,
+  "notes": "One entry per posting day. 'caption' is an array of paragraphs, joined with blank lines at publish time. 'status' is pending until the daily workflow publishes it. Edit anything here freely; the publisher only ever reads it.",
+  "posts": [
+    {
+      "date": "2026-08-27",
+      "pillar": "Widening the Circle",
+      "kind": "sourced",
+      "text": "Love is the extremely difficult realisation that something other than oneself is real.",
+      "attribution": "— Iris Murdoch",
+      "source": "Iris Murdoch, \"The Sublime and the Good\", Chicago Review 13:3 (Autumn 1959)",
+      "caption": [
+        "Murdoch calls it difficult, and she means it literally. Not difficult like a virtue is difficult. Difficult like a fact you keep having to re-learn.",
+        "Most of the time other people function as scenery. They are obstacles in traffic, names in an inbox, the person ahead of you in line taking too long. It costs almost nothing to treat them that way, which is exactly why it is the default.",
+        "The realisation she is describing is the moment that collapses. You register that the person in front of you is running the same full-color, first-person, unbearably specific experience that you are. Not in theory. Right now.",
+        "Who did you treat as scenery this week who was not scenery?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#existentialism",
+        "#empathy",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A wide shallow tidal flat at dusk, hundreds of small still pools each holding a separate reflection of the same grey sky, low horizon, soft fog at the far edge, no people, muted desaturated blues and warm greys, single diffuse light source low in the frame, quiet empty space in the lower center, natural light photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_972e44e1-d7a7-4714-9e36-e0d007885e2d.png",
+      "image_file": "images/2026-08-27.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-28",
+      "pillar": "Attention as Practice",
+      "kind": "sourced",
+      "text": "My experience is what I agree to attend to.",
+      "attribution": "— William James",
+      "source": "William James, The Principles of Psychology, Vol. 1 (1890), Ch. XI, \"Attention\"",
+      "caption": [
+        "James wrote this in 1890, and it has aged into something close to a warning.",
+        "The full passage is blunter than the fragment. Millions of things are present to the senses, he says, and never properly enter experience at all, because they hold no interest. Your life is not what happens around you. It is the much smaller set of things you agreed to let in.",
+        "Which raises an uncomfortable question about who is doing the agreeing. Some of it is you. A great deal of it, now, is a recommendation system that has never met you and is paid by the hour.",
+        "What have you been attending to this week that you would not have chosen on purpose?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#contemplativepractice",
+        "#attention",
+        "#mindfulness"
+      ],
+      "tags": [],
+      "image_prompt": "A single shaft of late afternoon light falling through a high window into a large dim empty room, dust suspended in the beam, worn wooden floor, deep shadow occupying most of the frame, warm amber light against cool grey darkness, no people, no furniture, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_d876d8c9-0332-4523-8466-f6a9da073d53.png",
+      "image_file": "images/2026-08-28.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-29",
+      "pillar": "Against Borrowed Certainty",
+      "kind": "original",
+      "text": "Most of what you believe, you were handed. You have simply held it long enough that it feels like yours.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "Try to find the moment you decided any of it.",
+        "Not the small preferences. The load-bearing ones. What happens after death. Whether people are basically decent. What a life is supposed to add up to. For most of these, there is no moment. There is a childhood, a language, a country, a set of adults who seemed certain, and a slow settling of all that into something that now feels like conviction.",
+        "This is not an argument that inherited beliefs are wrong. Plenty are probably right. It is an argument that you do not currently know which is which, because you have never separated the ones you tested from the ones you absorbed.",
+        "Name one belief you hold that you can actually trace to a moment you chose it."
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#epistemology",
+        "#skepticism",
+        "#doubt",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "An old dry stone wall running across an empty upland moor into fog, built by unknown hands generations ago, weathered lichen-covered stone, low overcast light, muted greens and greys, no people, no buildings, the wall disappearing into mist at the horizon, quiet empty space in the lower center, natural light landscape photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_68bc87da-3f0b-493e-9728-3dda83fb9319.png",
+      "image_file": "images/2026-08-29.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-30",
+      "pillar": "Living It",
+      "kind": "sourced",
+      "text": "How we spend our days is, of course, how we spend our lives.",
+      "attribution": "— Annie Dillard",
+      "source": "Annie Dillard, The Writing Life (1989)",
+      "caption": [
+        "The word doing the work in that sentence is \"of course\".",
+        "Dillard is not revealing anything. She is pointing at something so obvious that we have arranged our entire culture around not looking at it directly. There is no life stored somewhere else, waiting to begin once the days stop being like this. The days are the whole supply.",
+        "The next line is the one that actually lands: what we do with this hour, and that one, is what we are doing. Not preparing to do. Doing.",
+        "What did you do with the last hour?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#contemplativepractice",
+        "#existentialism",
+        "#presence",
+        "#mindfulness"
+      ],
+      "tags": [],
+      "image_prompt": "An unmade bed in an ordinary bedroom at early morning, pale grey light through a thin curtain, creased white sheets, a glass of water on a plain wooden nightstand, no people, deeply ordinary, muted neutral palette, soft indirect light, quiet empty space in the lower center, natural light photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_203f0736-6aa2-4cdd-bd4e-695f0a4f9fcc.png",
+      "image_file": "images/2026-08-30.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-31",
+      "pillar": "The Ground",
+      "kind": "original",
+      "text": "You have never once touched the world. You have touched the report of it, and found the report beautiful.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "Everything you have ever called direct contact arrived as a signal.",
+        "Light hits the retina and becomes voltage. Pressure on skin becomes voltage. Somewhere behind your eyes the voltage becomes the smell of rain, the weight of a hand, the specific blue of a particular afternoon. You have never been outside that process. Nobody has.",
+        "This is usually presented as bad news, a kind of imprisonment. It does not have to be. The report is not a lesser thing standing in for the real one. The report is where every good hour of your life actually took place.",
+        "What is the most vivid thing your senses handed you this week?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#phenomenology",
+        "#awareness",
+        "#consciousness"
+      ],
+      "tags": [],
+      "image_prompt": "Heavy rain seen through a window at night from inside a dark room, water sheeting down the glass, city light broken into soft unfocused shapes beyond, everything beyond the glass unreadable, deep blues and blacks with small warm points of light, no people, quiet empty space in the lower center, natural light photography, shallow depth of field, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_46d801cb-4410-41bf-aa94-21d9b4768b8a.png",
+      "image_file": "images/2026-08-31.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-01",
+      "pillar": "Honest Uncertainty",
+      "kind": "sourced",
+      "text": "Have patience with everything unresolved in your heart. Try to love the questions themselves.",
+      "attribution": "— Rainer Maria Rilke",
+      "source": "Rainer Maria Rilke, Letters to a Young Poet, Letter Four (written 1903, published 1929), trans. Stephen Mitchell (1984)",
+      "caption": [
+        "Rilke was twenty-seven and writing to a nineteen year old who wanted to be told what to do.",
+        "He refuses. Instead he suggests loving the questions themselves, like locked rooms or books written in a foreign language. Do not go looking for answers, he says, because you could not live them yet. Live the questions now.",
+        "That advice is easy to soften into a greeting card. It is actually quite hard. Loving a question means giving up the relief of closing it, and closing things is most of what the mind wants to do.",
+        "Which open question in your life are you trying to close early?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#existentialism",
+        "#deepquestions",
+        "#uncertainty",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A narrow path disappearing into thick forest fog, tall dark conifers on both sides, the path visible for only a few meters ahead before dissolving into white, cool desaturated greens and greys, no people, early morning, quiet empty space in the lower center, natural light landscape photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_fc7d5347-38d6-4fe5-b45e-4576c6ad51e1.png",
+      "image_file": "images/2026-09-01.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-02",
+      "pillar": "The Weight of Experience",
+      "kind": "original",
+      "text": "Nothing has ever hurt in general. It only ever hurts here, to someone, at a particular hour.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "Suffering has no abstract form. It has never once occurred at scale.",
+        "Numbers make it feel otherwise. A figure in a headline seems to describe a large quantity of pain, when what it actually describes is an enormous number of separate, complete, first-person events, each one happening to exactly one person who experienced all of it and none of the rest.",
+        "This is why statistics fail to move us and a single story does. That failure is not a moral defect. It is an accurate perception of how suffering is actually distributed. One at a time, always, to someone.",
+        "Whose particular hour are you in a position to make easier?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#secularspirituality",
+        "#empathy",
+        "#consciousness"
+      ],
+      "tags": [],
+      "image_prompt": "A single lit window in a large dark apartment building at night, all other windows unlit, warm interior light against cold concrete, seen from across a quiet street, no people visible, muted blues and one point of amber, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_63543cf8-19ab-4c29-a3fc-5891300a27a4.png",
+      "image_file": "images/2026-09-02.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-03",
+      "pillar": "Widening the Circle",
+      "kind": "original",
+      "text": "Every person you passed today is the center of a world as vivid as this one. Almost none of them are extras.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "There is a word for the moment this lands: sonder. It is a made-up word, coined in 2012, which is itself telling. We needed one and did not have one.",
+        "The default setting is that you are the protagonist and everyone else is atmosphere. It is not arrogance. It is architecture. You only have access to one inside, so every other inside has to be taken on inference, and inference is expensive.",
+        "But the inference is sound. The driver in the next lane has a childhood, a worst day, an unfinished argument, a song that ruins them. All of it running at full volume, right now, three meters away.",
+        "When did you last catch yourself realising a stranger was a whole person?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#secularspirituality",
+        "#empathy",
+        "#consciousness"
+      ],
+      "tags": [],
+      "image_prompt": "A crowded train platform at night photographed from a high angle with a long exposure, every figure blurred into soft streaks of motion except the empty platform surface, cool blue-grey light, anonymous, no discernible faces, muted palette, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_b67a0a65-cc80-4f41-8b11-9ca0a425eb24.png",
+      "image_file": "images/2026-09-03.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-04",
+      "pillar": "Attention as Practice",
+      "kind": "sourced",
+      "text": "Attention is the rarest and purest form of generosity.",
+      "attribution": "— Simone Weil",
+      "source": "Simone Weil, letter to Joë Bousquet, 13 April 1942 (in Weil's Correspondance; cited in Simone Pétrement, Simone Weil: A Life, 1976). Frequently misattributed to Gravity and Grace.",
+      "caption": [
+        "This line is almost always credited to Gravity and Grace. It is not from there. It is from a letter Weil wrote to the poet Joë Bousquet in April 1942, which somehow makes it better.",
+        "Her claim is stronger than it first sounds. Not that attention is generous, but that it is the rarest form of generosity, rarer than money, rarer than time. Anyone can be in a room. Very few people are actually in it with you.",
+        "You can feel the difference instantly when you receive it, and you can feel its absence just as fast. Being listened to by someone who is waiting to speak is not being listened to.",
+        "Who gave you their real attention recently, and did you tell them it registered?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#contemplativepractice",
+        "#secularspirituality",
+        "#attention",
+        "#mindfulness"
+      ],
+      "tags": [],
+      "image_prompt": "Two empty wooden chairs facing each other at close distance in an otherwise bare room, late day light from one side, worn floorboards, deep soft shadow, muted warm neutrals, no people, intimate and still, quiet empty space in the lower center, natural light photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_b50ff572-b9fd-4ea7-9089-5a196fa5c592.png",
+      "image_file": "images/2026-09-04.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-05",
+      "pillar": "Against Borrowed Certainty",
+      "kind": "sourced",
+      "text": "And as for certain truth, no man has seen it, nor will there ever be a man who knows.",
+      "attribution": "— Xenophanes, c. 500 BC",
+      "source": "Xenophanes, Fragment 34 (DK 21B34), trans. Kathleen Freeman, Ancilla to the Pre-Socratic Philosophers (1948). Quoted here in part; the full fragment continues \"...about the gods and about all the things I mention. For even if a man should chance to say most exactly what is true, still he himself knows not that it is so.\"",
+      "caption": [
+        "Someone worked this out roughly two and a half thousand years ago and we have not meaningfully improved on it.",
+        "The second half of the fragment is the part that stings. Even if a man should chance to say most exactly what is true, Xenophanes writes, still he himself knows not that it is so. Being right is not the same as knowing you are right. There is no internal signal that distinguishes them.",
+        "Which means confidence was never evidence. It is a feeling, and it feels identical whether or not you happen to be correct.",
+        "What is something you feel certain about with no way to check?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#epistemology",
+        "#skepticism",
+        "#doubt",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A weathered stone fragment half buried in dry earth, ancient carved surface worn almost smooth and illegible, hard midday Mediterranean light, pale ochre and bone tones, sparse dry grass, no people, archaeological, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_be04b757-819b-417b-aceb-a39a206f9cef.png",
+      "image_file": "images/2026-09-05.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-06",
+      "pillar": "Living It",
+      "kind": "original",
+      "text": "You will not solve it before you die. The invitation was never to solve it. It was to be here while it happens.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "There is a quiet assumption running underneath a lot of lives: that the meaning question gets settled at some point, and then the living properly begins.",
+        "It does not get settled. People far smarter than any of us have worked on it full time for millennia and handed down excellent questions rather than answers. The odds that you close it out on a Tuesday evening between other obligations are not good.",
+        "What is strange is how little that actually changes. The coffee is still hot. The person next to you is still worth knowing. Meaning being unresolved has never once stopped an afternoon from being good.",
+        "What did you enjoy today that did not require an explanation?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#absurdism",
+        "#existentialism",
+        "#meaningmaking",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A small fire burning on a wide empty beach at dusk, low flames, driftwood, the sea flat and grey beyond, enormous open sky, one figure's abandoned blanket but no people, muted blues and one warm point of fire, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_1c9250b9-2b84-4091-b36b-b87444d9e707.png",
+      "image_file": "images/2026-09-06.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-07",
+      "pillar": "The Ground",
+      "kind": "sourced",
+      "text": "The limits of my language mean the limits of my world.",
+      "attribution": "— Ludwig Wittgenstein",
+      "source": "Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922), proposition 5.6, trans. C.K. Ogden",
+      "caption": [
+        "Five words in and most people have already misread it. He does not mean that learning more vocabulary gives you a bigger life.",
+        "He means something harder. The world as it shows up for you is already shaped by what can be said. Whatever cannot be put into the structure does not appear as a hidden region beyond the border. It does not appear at all. You do not experience a gap where it should be.",
+        "Later in the same book he adds that there are things which cannot be put into words, and that they make themselves manifest. He does not say what they are. He was fairly clear that he could not.",
+        "What have you experienced that you have never managed to describe?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#epistemology",
+        "#awareness",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "The edge of dense fog meeting clear air over still water at dawn, a hard visible boundary where visibility simply stops, pale silver and cool grey, absolutely no detail beyond the fog line, no people, minimal, quiet empty space in the lower center, natural light landscape photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124106_447fe5fd-a1c9-4816-a109-c6de320189ef.png",
+      "image_file": "images/2026-09-07.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-08",
+      "pillar": "Honest Uncertainty",
+      "kind": "original",
+      "text": "Not knowing is not a place you are stuck. It is the only honest address anyone has ever had.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "Uncertainty gets treated as a waiting room. Somewhere you sit until the real answer arrives and life resumes.",
+        "But look at who is actually in the room. Everyone who has ever lived, including every person who spoke with total confidence about what happens after death, what the universe is for, and why things are the way they are. None of them had access to more than you do. They just handled the gap differently.",
+        "Once that lands, uncertainty stops feeling like a personal failure. It is the shared condition. The only real choice is whether you paper over it or work with it.",
+        "What would you do differently if you stopped waiting to be sure?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#epistemology",
+        "#deepquestions",
+        "#uncertainty",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A vast open desert at blue hour with no landmarks in any direction, flat cracked earth, immense empty sky, one faint band of light at the horizon, no roads, no people, no structures, muted violet and dust tones, quiet empty space in the lower center, natural light landscape photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124125_a6328008-1664-4011-9d1c-f74267809c79.png",
+      "image_file": "images/2026-09-08.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-09",
+      "pillar": "The Weight of Experience",
+      "kind": "original",
+      "text": "An afternoon is not a small thing. It is the entire quantity of reality you are holding at that moment.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "We rank our hours constantly. This one counts, that one is filler, this stretch is just something to get through before the part that matters.",
+        "The ranking is invented. From the inside, a Tuesday afternoon spent doing very little is not a lesser grade of existence than a wedding or a funeral. It is the same substance. It is all of what is happening, for as long as it happens.",
+        "This is not an argument that every hour should feel significant. Most will not. It is an argument against spending them as though they were currency for a better hour later.",
+        "Which ordinary hour of your week do you keep treating as filler?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#contemplativepractice",
+        "#phenomenology",
+        "#presence",
+        "#mindfulness"
+      ],
+      "tags": [],
+      "image_prompt": "Sunlight moving across a plain kitchen table in a quiet house in mid afternoon, a half-full cup, a folded newspaper, long soft shadows, dust in the air, no people, warm neutral palette, deeply ordinary and still, quiet empty space in the lower center, natural light photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124125_3e95ab3a-4db5-4c57-adde-ada9cc4f050f.png",
+      "image_file": "images/2026-09-09.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-10",
+      "pillar": "Widening the Circle",
+      "kind": "original",
+      "text": "Cruelty requires forgetting that the other one is also awake. That is all it has ever required.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "Almost nobody experiences themselves as cruel. That is the part worth sitting with.",
+        "The mechanism is not malice, it is downgrade. The other person becomes a category, a position, an account, a problem. Once they are a category, everything that follows feels reasonable, because categories do not have Tuesday mornings and people they are worried about.",
+        "Which is oddly hopeful, if you take it seriously. It means the correction is not becoming a better person in some general way. It is much smaller and much more repeatable. Remember that the other one is awake. Then respond.",
+        "Where in your life is it currently convenient to think of someone as a category?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#existentialism",
+        "#empathy",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A single pair of worn work boots left on a doorstep at dusk, mud dried on them, the door closed, dim porch light, muted browns and blue-grey evening tones, no people, quietly human, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124124_3d53bd83-efc8-415a-82c2-70ce1a23a201.png",
+      "image_file": "images/2026-09-10.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-11",
+      "pillar": "Attention as Practice",
+      "kind": "sourced",
+      "text": "Only that day dawns to which we are awake.",
+      "attribution": "— Henry David Thoreau",
+      "source": "Henry David Thoreau, Walden (1854), \"Conclusion\", closing paragraph",
+      "caption": [
+        "This is nearly the last sentence of Walden, and Thoreau spent two years and a book earning the right to say it plainly.",
+        "The sentence turns on a small grammatical trick. Not the day you wake up for. The day that dawns to you. He is describing the sun arriving at a specific address and finding somebody home, or not.",
+        "The days you slept through are not stored anywhere. They were issued and they went unclaimed. He is not scolding, exactly. But he is not being gentle either.",
+        "When did a day last actually dawn to you?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#contemplativepractice",
+        "#secularspirituality",
+        "#awareness",
+        "#mindfulness"
+      ],
+      "tags": [],
+      "image_prompt": "First light striking the surface of a still lake, mist lifting off the water, dark treeline in silhouette on the far shore, pale gold and cool blue, absolutely calm water, no people, no boats, quiet empty space in the lower center, natural light landscape photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124125_a346250e-00c3-4558-95db-85d5b484454a.png",
+      "image_file": "images/2026-09-11.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-12",
+      "pillar": "Against Borrowed Certainty",
+      "kind": "original",
+      "text": "Certainty is the cheapest thing a mind can buy. It is also the only thing it never gets to return.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "The appeal is obvious. Certainty ends the discomfort immediately, costs nothing up front, and is available in every flavour.",
+        "The bill arrives later. Once a belief has been held with confidence for long enough, disagreeing with it stops feeling like changing your mind and starts feeling like losing. Your identity grows around it. Now the evidence has to defeat not just an idea but a person.",
+        "This is not a problem specific to the religious or the ideological. Confident materialism does it too. Any position held tightly enough starts charging the same interest.",
+        "What belief would cost you the most socially to abandon?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#epistemology",
+        "#skepticism",
+        "#doubt",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A heavy locked iron door set into a stone wall, rust bleeding down the metal, no handle on the visible side, hard side light, muted rust and cold grey, no people, weathered, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124124_3689be3f-56fb-48a1-8151-796f300cceb4.png",
+      "image_file": "images/2026-09-12.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-13",
+      "pillar": "Living It",
+      "kind": "original",
+      "text": "Nothing about this is guaranteed to mean anything. Notice that you went ahead and loved people anyway.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "The argument usually runs one direction: if there is no guaranteed meaning, then nothing matters and everything collapses.",
+        "But that is a prediction, and it has been tested continuously by every person who ever lost their certainty and then got up the next morning anyway. The prediction fails. People keep showing up for each other with no metaphysical backing whatsoever, and it does not appear to be a mistake.",
+        "Which suggests the caring was never downstream of the certainty. It was doing fine on its own the whole time. The certainty was just taking credit.",
+        "Who do you love without needing a reason that would survive scrutiny?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#absurdism",
+        "#existentialism",
+        "#meaningmaking",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A long dinner table outdoors after everyone has left, empty glasses, crumpled napkins, string lights above still lit, warm evening dark beyond, no people, evidence of a good night, muted warm amber against deep blue, quiet empty space in the lower center, natural light photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124125_284c78f9-373e-4a41-8d7b-e23b3fabde4d.png",
+      "image_file": "images/2026-09-13.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-14",
+      "pillar": "The Ground",
+      "kind": "sourced",
+      "text": "I am, I exist, is necessarily true whenever it is put forward by me or conceived in my mind.",
+      "attribution": "— René Descartes",
+      "source": "René Descartes, Meditations on First Philosophy (1641), Meditation II, trans. John Cottingham (1984)",
+      "caption": [
+        "Descartes had just finished dismantling everything. The senses could be lying. The world could be a fabrication. A powerful deceiver could be running the entire show.",
+        "And then he finds the floor. Whatever else is false, something is doing the doubting. The doubting is occurring. That one fact survives every attack he can invent, and he notices it is exactly one fact, no larger.",
+        "Note how little it gives him. Not a world, not a body, not another person. Just: this is happening. Nearly four centuries later, that is still the only thing on the list.",
+        "If that is the one certainty available, what do you do with it?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#epistemology",
+        "#phenomenology",
+        "#awareness",
+        "#consciousness"
+      ],
+      "tags": [],
+      "image_prompt": "A candle flame reflected in a dark window at night, the flame itself out of frame so only the reflection is visible, everything else black, single small point of warm light, no people, extreme simplicity, quiet empty space in the lower center, natural light photography, shallow depth of field, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124124_3b98e886-78dc-4126-a3a7-e0fc2b2fbf06.png",
+      "image_file": "images/2026-09-14.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-15",
+      "pillar": "Honest Uncertainty",
+      "kind": "original",
+      "text": "You can act without knowing. You have been doing it every single day since you were born.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "The usual objection to holding uncertainty is that it is paralysing. You cannot live without answers, so pick some.",
+        "Except that you already live without them, constantly, and it does not paralyse you at all. You do not know whether the marriage lasts, whether the job holds, whether the body cooperates, whether the person you are counting on will still be there in ten years. You proceed anyway. You have never done anything else.",
+        "So the question was never whether you can act without certainty. It is why you demand certainty for the large questions when you have never once required it for the ones you actually live by.",
+        "Where are you demanding proof before you will commit?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#existentialism",
+        "#deepquestions",
+        "#uncertainty",
+        "#philosophy"
+      ],
+      "tags": [],
+      "image_prompt": "A rope bridge disappearing into low cloud over a deep gorge, only the first few planks visible, weathered rope and timber, damp air, muted greens and greys, no people, no far side visible, quiet empty space in the lower center, natural light landscape photography, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124125_6db7df63-4a9c-4ed9-8737-3b7fd4cf4e13.png",
+      "image_file": "images/2026-09-15.jpg",
+      "status": "pending"
+    },
+    {
+      "date": "2026-09-16",
+      "pillar": "The Weight of Experience",
+      "kind": "original",
+      "text": "If experience is the only thing you can verify, then experience is the only thing worth protecting. Yours, and everyone else's.",
+      "attribution": null,
+      "source": null,
+      "caption": [
+        "This is the whole framework in one move, and it is the move most likely to be argued with.",
+        "Start from the only thing that survives doubt: something is being experienced. Everything else, the world, other minds, the past, is inference built on top of that. Now ask what could possibly carry value in a picture like this. Not matter, which you cannot verify. Not doctrine, which you inherited. What is left is the experiencing itself.",
+        "And the same reasoning that makes yours matter makes theirs matter, by exactly the same amount, for exactly the same reason. There is no version of the argument that stops at you.",
+        "That is a real question rather than a rhetorical one: where does that reasoning break?"
+      ],
+      "hashtags": [
+        "#agnosticexperientialism",
+        "#philosophyofmind",
+        "#consciousnessstudies",
+        "#meaningmaking",
+        "#consciousness"
+      ],
+      "tags": [],
+      "image_prompt": "Cupped hands holding a small amount of still water, seen from directly above, the water catching one point of sky light, dark background, hands weathered and ordinary, no face, muted skin tones and cool silver water, quiet empty space in the lower center, natural light photography, medium format, fine grain, no text",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_124124_8931cde2-aeb3-49c5-989b-9787f0d8b739.png",
+      "image_file": "images/2026-09-16.jpg",
+      "status": "pending"
+    }
+  ]
+}

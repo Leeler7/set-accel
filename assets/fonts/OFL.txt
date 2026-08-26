@@ -1,0 +1,9 @@
+Lora is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) Cyreal (cyreal.org)
+
+This license is available with a FAQ at: https://openfontlicense.org
+Full text: https://openfontlicense.org/open-font-license-official-text/
+
+The fonts and derivatives, however, cannot be released under any other type of
+license. The requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.

@@ -1,0 +1,65 @@
+name: Ingest images
+
+# Downloads the generated backgrounds referenced in queue.json, composites the
+# day's text onto them, and commits the finished JPEGs.
+#
+# This runs here rather than where the content is authored because the
+# generation CDN is not reachable from that environment, and because committing
+# the image early means publishing never depends on a CDN URL that may have
+# expired by the time the post is due.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-render images that already exist"
+        type: boolean
+        default: false
+      only:
+        description: "Only this date (YYYY-MM-DD)"
+        type: string
+        required: false
+  push:
+    paths:
+      - "queue/queue.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: image-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet pillow
+
+      - name: Validate the queue
+        run: python3 tools/validate.py
+
+      - name: Build images
+        run: |
+          python3 tools/ingest.py \
+            ${{ inputs.force && '--force' || '' }} \
+            ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+
+      - name: Commit the images
+        run: |
+          if [[ -z "$(git status --porcelain images)" ]]; then
+            echo "no new images"
+            exit 0
+          fi
+          git config user.name "set.accel bot"
+          git config user.email "actions@github.com"
+          git add images
+          git commit -m "render post images"
+          git pull --rebase --autostash
+          git push

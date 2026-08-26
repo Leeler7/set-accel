@@ -1,0 +1,96 @@
+name: Health check
+
+# The point of this workflow is to make silent failure impossible. An
+# unattended account that stops posting looks exactly like an unattended
+# account that is working, until someone happens to look. This checks weekly
+# and opens a GitHub issue when something needs a human.
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Monday morning
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the health check
+        id: check
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          set +e
+          python3 tools/health.py > report.md 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          cat report.md
+
+      - name: Open an issue if something needs attention
+        if: steps.check.outputs.status != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('report.md', 'utf8');
+            const title = 'set.accel needs attention';
+
+            // Reuse one open issue rather than filing a new one every week.
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation-health',
+            });
+
+            if (existing.data.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.data[0].number,
+                body: `Still failing as of ${new Date().toISOString().slice(0,10)}:\n\n${body}`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['automation-health'],
+              });
+            }
+
+      - name: Close the issue once everything is healthy again
+        if: steps.check.outputs.status == '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation-health',
+            });
+            for (const issue of existing.data) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'Health check passed. Closing.',
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+            }
