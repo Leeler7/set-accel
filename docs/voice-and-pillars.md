@@ -254,6 +254,15 @@ breakfast, halogen lights over an industrial park, a friend's hand.
 - Landscape is allowed but should feel inhabited rather than sublime.
 - No faces. No recognizable individuals. Hands are fine.
 - No text baked into the generation. Text is composited afterward.
+- No watermarks. This is a different failure from the one above, and a worse
+  one: the generator invents a plausible stock-agency overlay nobody asked for.
+  The launch batch shipped one on its very first post, a garbled wordmark across
+  the lower right, and nothing in the pipeline caught it. It was found by
+  looking. So end every image prompt with an explicit negative, and look at the
+  lower third of whatever comes back before committing it:
+
+      Absolutely no text, no lettering, no logos, no watermark, no
+      stock-photo overlay of any kind.
 - Muted and desaturated, one light source, but not precious. Fluorescent and
   sodium light are as valid as golden hour.
 - Composition must leave a quiet zone, usually lower-center, for the type.
@@ -262,7 +271,12 @@ breakfast, halogen lights over an industrial park, a friend's hand.
   register the first edition over-used.
 - Backgrounds must be well exposed. Sources below mean luminance 12 are
   rejected by the compositor, because normalizing them amplifies noise into
-  colored confetti rather than recovering a picture.
+  colored confetti rather than recovering a picture. Ask for dusk with visible
+  shadow detail, never "night", and say "no crushed blacks" outright. A
+  rejected background is not a loud failure: the post still renders, still
+  publishes, and the only symptom is one flat gradient sitting in a grid of
+  photographs. `ingest.py` now prints a workflow warning when this happens,
+  so read it.
 
 Type: serif, generous leading, centered, never all caps. Near-white on a
 gradient scrim, legible at thumbnail size.
