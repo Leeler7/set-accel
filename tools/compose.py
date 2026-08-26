@@ -140,7 +140,20 @@ def load_background(spec: str | None, seed_text: str) -> tuple[Image.Image, bool
         print(f"[compose] background load failed ({exc}), using fallback", file=sys.stderr)
         return fallback_background(seed_text), True
 
-    return cover_crop(img, W, H), False
+    img = cover_crop(img, W, H)
+
+    # A source this dark carries no recoverable picture, only sensor and codec
+    # noise. Normalizing it does not rescue an image, it amplifies chroma noise
+    # into magenta and green confetti, which is worse than no photograph at all.
+    # Observed twice in the launch batch, at source luminance 2.6 and 9.8, while
+    # everything at 14.6 and above normalized cleanly.
+    luma = ImageStat.Stat(img.convert("L")).mean[0]
+    if luma < MIN_USABLE_LUMA:
+        print(f"[compose] background is unusably dark (luma {luma:.1f} < "
+              f"{MIN_USABLE_LUMA}), using fallback instead", file=sys.stderr)
+        return fallback_background(seed_text), True
+
+    return img, False
 
 
 def cover_crop(img: Image.Image, tw: int, th: int) -> Image.Image:
@@ -159,6 +172,10 @@ def cover_crop(img: Image.Image, tw: int, th: int) -> Image.Image:
 # Mean luminance every background is pulled toward, so the grid reads as one
 # body of work rather than a run of unrelated exposures.
 TARGET_LUMA = 72.0
+
+# Below this source luminance a background is rejected rather than normalized.
+# See the note in load_background.
+MIN_USABLE_LUMA = 12.0
 
 
 def normalize_exposure(img: Image.Image) -> Image.Image:
@@ -362,7 +379,15 @@ def render_text(img: Image.Image, text: str, attribution: str | None, handle: st
 # ---------------------------------------------------------------- main
 
 def build(text: str, out: str, background: str | None = None,
-          attribution: str | None = None, handle: str | None = None) -> str:
+          attribution: str | None = None, handle: str | None = None) -> tuple[str, bool]:
+    """
+    Render one post. Returns (path, used_fallback).
+
+    The caller needs used_fallback because a post that quietly renders as a
+    generated gradient still looks like a success: a file appears, publishing
+    works, and nobody finds out the photograph was dropped until the grid shows
+    one flat rectangle among twenty photographs.
+    """
     img, is_fallback = load_background(background, text)
     if not is_fallback:
         img = house_treatment(img)
@@ -376,7 +401,7 @@ def build(text: str, out: str, background: str | None = None,
     os.makedirs(os.path.dirname(os.path.abspath(out)) or ".", exist_ok=True)
     # JPEG is the only format the Instagram publishing API accepts.
     img.save(out, "JPEG", quality=92, optimize=True, progressive=False, subsampling=0)
-    return out
+    return out, is_fallback
 
 
 def main() -> None:
@@ -388,9 +413,10 @@ def main() -> None:
     ap.add_argument("--handle", default=None)
     args = ap.parse_args()
 
-    path = build(args.text, args.out, args.background, args.attribution, args.handle)
+    path, used_fallback = build(args.text, args.out, args.background, args.attribution, args.handle)
     size = os.path.getsize(path)
-    print(f"[compose] wrote {path} ({size/1024:.0f} KB)")
+    note = "  (generated gradient, no photograph)" if used_fallback else ""
+    print(f"[compose] wrote {path} ({size/1024:.0f} KB){note}")
     if size > 8 * 1024 * 1024:
         print("[compose] WARNING: over Instagram's 8MB image ceiling", file=sys.stderr)
 

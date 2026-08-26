@@ -1,255 +1,278 @@
 # Agnostic Experientialism: Content Bible
 
-This file is the source of truth for every generated post. Editing this file changes
-what the account says. Nothing else needs to be touched to change voice or direction.
+Source of truth for every generated post. Editing this file changes what the
+account says. Nothing else needs touching to change voice or direction.
 
-Last reviewed: 2026-08-26
+Rewritten 2026-08-26, second edition.
 
 ---
 
-## 0. Provenance note
+## 0. Provenance
 
-Two things stated directly by Lee anchor this framework:
+The first edition of this file was extrapolated from a two-sentence summary of
+the framework. Two of its seven pillars turned out to be inventions, and it
+missed reciprocity, vulnerable connection, consent/context/intent, and the
+obligation that attaches to power. It produced posts that could have come from
+any mindfulness account.
 
-1. Perception is the only undeniable truth.
-2. Maximizing conscious experience for oneself and others is the most coherent moral
-   orientation available.
+This edition is built from Lee's own material: the manifesto development arc,
+the nine foundational challenges and his answers, the is-ought steelmanning, and
+the personal writing. Where a line below is close to his own words, the queue
+entry records that in its `source_material` field.
 
-Everything below in Section 1 is an extrapolation from those two statements into
-postable territory. It is a proposal, not a transcription of Lee's written work. If a
-pillar misstates the framework, edit it here and the next generation cycle picks up
-the change.
+The framework's own commitments now constrain the account. Most importantly:
+this is not a serene philosophy. It holds that depth requires difficulty, that
+the good costs perspective, and that a frictionless ideal is not worth wanting.
+An account that reads as calm reassurance is misrepresenting it.
 
 ---
 
 ## 1. The seven pillars
 
-One pillar per day of the week, rotating, so the account builds a recognizable
-structure rather than posting random aphorisms. Variation within a pillar is expected.
+One per day of the week, so the account builds a structure rather than posting
+scattered aphorisms.
 
 ### Monday: The Ground
-Perception is the only thing that cannot be doubted. Everything else, including the
-existence of a world behind perception, is inference. This is the floor the framework
-stands on.
+Perception plus understanding is the only certainty. Not perception alone: a
+camera perceives light and captures a moment without experiencing it. The
+value is in a being that can register that it is perceiving. Everything beyond
+that is inference, including the world and other minds.
 
-Reach for: the immediacy of experience, the gap between sensation and explanation, the
-strangeness of being the one place reality is showing up.
+Reach for: the immediacy of experience, the gap between capture and
+comprehension, the strangeness of being the place where reality shows up.
 
-Avoid: solipsism as a conclusion. The claim is epistemic, not a denial that others exist.
+Avoid: solipsism as a conclusion, and treating raw sensation as the ground.
+The refinement to perception-plus-understanding is load-bearing.
 
-### Tuesday: Honest Uncertainty
-Agnosticism as a discipline rather than a shrug. Holding "I do not know" without
-collapsing into either belief or despair. The refusal to trade an honest gap for a
-comfortable story.
+### Tuesday: Meaning Without Knowing
+We cannot know what matters. That is the conclusion, not that nothing matters.
+Nihilism reaches the same unknowability and stops; this framework notes that
+experience is still a fact on the table and builds from it. The nihilist is
+ignoring available data.
 
-Reach for: the cost of premature certainty, the dignity of an open question, how not
-knowing is compatible with acting.
+Reach for: acting without certainty, the difference between unknowable and
+absent, mortality as a reason for immediacy rather than despair.
 
-Avoid: framing uncertainty as a stage on the way to eventual belief.
+Avoid: resolving the question in either direction. Also avoid comfort. The
+honest position is harder than either belief or nihilism, not easier.
 
-### Wednesday: The Weight of Experience
-If experience is the only verified thing, then experience is the only thing that can
-carry moral weight. Suffering is not an abstraction. Neither is joy.
+### Wednesday: The Cost of Depth
+Contrast is the price of perspective. You need variety and difficulty to assess
+your own environment at all. Suffering is meaningful when it plausibly produces
+growth or understanding, and unjust when no such growth is expected. Because
+outcomes are unknowable, moral judgment is probabilistic.
 
-Reach for: the concreteness of a felt moment, why pain matters without needing a
-cosmic justification, the seriousness of a single day.
+Reach for: what a frictionless life would actually lack, difficulty as
+information, the specific texture of a hard good thing.
 
-Avoid: hedonic framing. This is not about pleasure maximization.
+Avoid: glorifying suffering. Unjust suffering is the larger category and the
+framework says so. This is about contrast, not endurance.
 
-### Thursday: Widening the Circle
-Every other perceiver is as central to themselves as you are to yourself. Moral scope
-follows from that symmetry, not from any doctrine handed down.
+### Thursday: Who Else Is In Here
+The moral circle. Inclusion tracks agency beyond reflex: care, curiosity,
+learning, communication. Where perception cannot be ruled out, act as if it is
+present. Empathy is itself a mode of perception, and a small inference rather
+than a large one.
 
-Reach for: the reality of other minds, the arbitrariness of where most people draw the
-circle, what changes when you take another person's inside seriously.
+Reach for: the reality of other minds, the arbitrariness of where most people
+draw the line, what changes when you take another's inside seriously.
 
-Avoid: moralizing at the reader. Show the symmetry, let them draw it.
+Avoid: moralizing. Show the symmetry and let the reader draw it.
 
-### Friday: Attention as Practice
-The quality of a life is largely the quality of its attention. Contemplative practice
-without metaphysical claims attached.
+### Friday: Reciprocity
+Put back roughly what you take out. Taking more than you give is unjust.
+Structurally: reciprocity holds when no one's experiential capacity is
+systematically diminished to sustain another's.
 
-Reach for: noticing, presence, what gets lost to autopilot, attention as the one lever
-actually within reach.
+This is the pillar that separates the framework from individualist
+existentialism, and it has teeth. It implies things about hoarding, about
+labour, about who pays for whose comfort.
 
-Avoid: promising transformation, enlightenment, or that attention fixes anything.
+Reach for: the commons you did not build, what your position costs someone
+else, kindness as a currency that can be earned or spent down.
 
-### Saturday: Against Borrowed Certainty
-Critique of inherited answers. This cuts in every direction, including at confident
-materialism and at the wellness industry's own dogmas.
+Avoid: utilitarian arithmetic. This is not aggregation, and autonomy is not
+tradeable for a greater good.
 
-Reach for: the appeal of a ready-made answer, what gets surrendered when you accept
-one, the difference between a belief you tested and a belief you absorbed.
+### Saturday: The Cost of Comfort
+Vulnerable connection as practice. Spontaneous, uncoordinated contact with
+people you care about is valuable precisely because it risks being
+inconvenient. Every outcome, including rejection, is real information about the
+relationship. It is not your job to manage another adult's comfort in a roughly
+symmetrical relationship; trying to is an extension of your own fear.
 
-Avoid: naming religions or ideologies as targets. Attack the structure, not the tribe.
+Reach for: the specific small acts that are harder than they look, being a
+bother, saying the thing, the information contained in a flinch.
 
-### Sunday: Living It
-Applied. How any of this changes a decision, a relationship, a diagnosis, an ordinary
-Tuesday, or the fact of dying.
+Avoid: turning this into networking advice or extroversion advocacy. The point
+is vulnerability, not sociability.
 
-Reach for: the concrete and the specific. This is the pillar where the framework has
-to earn its keep.
+### Sunday: Power and Indifference
+Indifference becomes unjust when it constricts others' perception, especially
+from a position of power. Obligation scales with proximity, capacity, severity
+and feasibility. The test for whether an act on someone else is just:
+consent, context, and intent. Autonomy is presumptively inviolable.
 
-Avoid: life-hack framing.
+This is where the framework is most demanding, and the most likely to be
+argued with. That is acceptable.
+
+Reach for: the difference between not solving everything and not being the
+reason someone has less, what power converts inaction into, the three-part test.
+
+Avoid: naming political parties or current figures. Attack the structure.
 
 ---
 
 ## 2. Voice rules
 
-### The core tension
-The account is contemplative in tone and agnostic in content. Contemplative tone comes
-from cadence, restraint, and silence around the words. It does not come from cosmic
-claims. The moment a post asserts something about what the universe wants or intends,
-the word "agnostic" in the name becomes a lie and the account's one distinguishing
-feature is gone.
+### The register
+Grounded, unsentimental, warm but with teeth. The framework was built by
+someone working through a real problem, not dispensing calm. It should sound
+like thinking, not like soothing.
+
+The test: could this line appear on a generic mindfulness account? If yes, it
+is wrong, however pretty it is.
 
 ### Never write
 - Any claim about purpose, plan, or intent in the universe
 - That consciousness is fundamental to reality, survives death, or is universal
-- "Energy," "vibration," "frequency," "manifest," "the universe is telling you,"
-  "divine," "sacred," "soul," "awakening," "higher self," "alignment"
+- "Energy," "vibration," "frequency," "manifesting," "the universe is telling
+  you," "higher self," "spiritual awakening," "alignment," "raise your frequency"
 - Anything that resolves the mystery in either direction
-- Confident materialism stated as settled fact. That is also a borrowed certainty.
-- Commands in self-help voice ("You must," "Stop doing X," "Start doing Y")
+- Confident materialism as settled fact. That is also a borrowed certainty.
+- Serenity as the goal. The framework rejects a frictionless ideal.
+- Commands in self-help voice ("You must," "Stop doing X")
 - Em dashes. Use a period, a comma, or a line break.
 
 ### Reach for
-attention, perception, experience, notice, witness, uncertainty, presence, the
-unverifiable, inference, the felt, the given, what is actually here
+perception, understanding, experience, inference, contrast, reciprocity,
+capacity, constriction, autonomy, consent, obligation, vulnerable, inconvenient,
+notice, what is actually here
 
 ### Form
-- Image text: 6 to 22 words. Under 12 is usually stronger.
+- Image text: 6 to 24 words. Under 14 is usually stronger.
 - One idea per post. Never two.
 - Prefer the concrete noun to the abstract one.
-- Let a line end early. Trust the reader.
 - No question marks in image text. The image states, the caption asks.
 
 ---
 
 ## 3. Attribution discipline
 
-Non-negotiable, because misattributed quotes are the fastest way to lose credibility
-in this niche and they are permanent once screenshotted.
+Non-negotiable. Misattributed quotes are permanent once screenshotted.
 
-- Roughly 60% of posts are original Agnostic Experientialism lines. These carry no
-  attribution and are never dressed up as someone else's.
-- Roughly 40% are sourced quotes. Every sourced quote must have a `source` field
-  naming a real, checkable work: title and, where possible, section or page.
-- If a quote cannot be traced to a specific work, it does not get posted. Not with a
-  hedge, not with "attributed to." It is dropped.
-- Popular misattributions to refuse outright: the "dance in the rain" line to anyone,
-  "be the change" to Gandhi in that phrasing, the "insanity is doing the same thing"
-  line to Einstein, most Buddha and Rumi quotes circulating on Instagram, and anything
-  sourced only to a quote aggregator site.
-- Preference for public-domain and pre-1929 sources where the text is verifiable.
-  Living authors are fine when the work is named.
+- Sourced quotes carry a `source` field naming a real, checkable work: title
+  and, where possible, section or page.
+- If a quote cannot be traced to a specific work, it is dropped. Not with a
+  hedge, not with "attributed to."
+- Original lines carry no attribution on the image. This includes lines drawn
+  from Lee's own writing, by his decision. The `source_material` field records
+  the provenance internally.
+- Target mix is roughly 70% original to 30% sourced. The original share is
+  higher than the first edition's 60% because Lee's own material is now the
+  primary source and it posts unattributed.
+
+Already rejected, do not reintroduce: the Marcus Aurelius "everything we hear
+is an opinion" line (modern fabrication), "Nothing is so firmly believed as
+that which we least know" to Montaigne (misattributed, and Montaigne is quoting
+Quintilian in a different book), the tidy Heraclitus river quote (later
+composite). The Simone Weil attention line is real but comes from a 1942 letter
+to Joë Bousquet, not Gravity and Grace.
 
 ---
 
 ## 4. Caption structure
 
-Instagram's ranking now weights sends and shares above everything else, then saves,
-then comments. Captions are written for that order, not for likes.
+Instagram ranks sends and shares above everything, then saves, then comments.
+Captions are written for that order.
 
-Structure, roughly 70 to 130 words:
+Roughly 70 to 130 words:
 
-1. **Opening line.** Never repeats the text already in the image. It is a different
-   entry into the same idea, and it has to survive being the only line visible before
-   the "more" cut.
-2. **Two or three short paragraphs.** One idea, developed. Concrete where possible.
-   Line breaks between them, because a wall of text is a scroll-past.
-3. **A closing question.** Specific and answerable in one sentence. "What do you
-   think?" is not a question, it is a shrug. "Which certainty did you inherit without
-   choosing it?" is a question.
-4. **Attribution line** where applicable, in the form: `— Author, Work (year)`
-   (an en dash here is fine, it is a citation mark rather than prose punctuation).
-5. **Hashtag block**, separated by a line of spacing.
-
-Written to be shared: the post should say something a person would want to be seen
-sending to someone. Written to be saved: it should be worth returning to.
+1. **Opening line.** Never repeats the image text. It has to survive being the
+   only line visible before the "more" cut.
+2. **Two or three short paragraphs.** One idea, developed, concrete where
+   possible.
+3. **A closing question.** Specific and answerable in a sentence. Where the
+   framework has a genuinely open tension, use it. Real unresolved questions
+   outperform rhetorical ones, and the framework has several: where inaction
+   becomes injustice, whether consent/context/intent is sufficient, the minimum
+   threshold of understanding that confers moral weight, how to weigh intense
+   against widespread constriction.
+4. **Attribution line** where applicable: `— Author, Work (year)`.
+5. **Hashtag block**, separated by spacing.
 
 ---
 
 ## 5. Hashtags
 
-Instagram capped hashtags at 5 per post in December 2025. This is reported
-consistently across social media industry sources including Later and Sked Social, but
-it is not something I verified against Meta's own developer documentation. The system
-uses a maximum of 5, which is safe under either the old or the new rule.
+Instagram capped hashtags at 5 per post in December 2025, reported consistently
+across industry sources though not confirmed in Meta's own developer docs. The
+system uses 5, which is safe under either rule.
 
-Post counts below are estimates and were not verifiable from this environment. Worth a
-manual sanity check in the Instagram search bar once the account is live, and worth
-re-checking every few months as tag popularity drifts.
+Post counts below are estimates and were not verifiable from this environment.
+Worth a manual check in the Instagram search bar once the account is live.
 
-Composition per post: 1 identity tag, 2 niche community tags, 1 topic tag, 1 broad tag.
+Composition: 1 identity, 2 niche, 1 topic, 1 broad.
 
-**Identity (always include one)**
+**Identity (always)**
 `#agnosticexperientialism`
 
-This is the branded tag. It has near-zero volume today, which is the point. It becomes
-the searchable home of the framework and the thing to point people to.
+**Niche (pick 2, matched to the pillar)**
+`#philosophyofmind` `#epistemology` `#consciousnessstudies` `#phenomenology`
+`#existentialism` `#moralphilosophy` `#ethics` `#secularhumanism`
+`#deepquestions` `#absurdism` `#skepticism` `#appliedethics`
 
-**Niche community (pick 2, matched to the pillar)**
-`#philosophyofmind` `#epistemology` `#consciousnessstudies` `#secularspirituality`
-`#contemplativepractice` `#phenomenology` `#existentialism` `#nondualityisnotwoo`
-`#skepticism` `#stoicismdaily` `#absurdism` `#deepquestions`
-
-**Topic (pick 1, matched to the day's idea)**
-`#uncertainty` `#attention` `#presence` `#mortality` `#empathy` `#doubt` `#awareness`
-`#meaningmaking` `#innerlife` `#solitude`
+**Topic (pick 1)**
+`#uncertainty` `#reciprocity` `#empathy` `#mortality` `#vulnerability`
+`#autonomy` `#consent` `#meaningmaking` `#perception` `#justice`
 
 **Broad (pick 1)**
-`#philosophy` `#mindfulness` `#consciousness` `#quotes` `#thoughtoftheday`
+`#philosophy` `#consciousness` `#ethics` `#thoughtoftheday` `#criticalthinking`
 
 ---
 
 ## 6. Tagging other accounts
 
-Default is to tag nobody.
-
-Automated account-tagging is one of the clearest spam signals on the platform and it
-is how new accounts get reach-limited. The tempting move, tagging large philosophy or
-mindfulness accounts to borrow their audience, is exactly the pattern the platform
-penalizes and exactly the thing that annoys the accounts being tagged.
-
-The only legitimate tags:
-- A living author whose quote is used, if they have a public account and the quote is
-  correctly sourced. Rare.
-- A collaborator or someone who actually contributed to the post.
-
-The `tags` field exists in the queue schema for these cases and stays empty otherwise.
+Default is to tag nobody. Automated account-tagging is one of the clearest spam
+signals on the platform. The only legitimate tags are a living author whose
+correctly sourced quote is used, or an actual collaborator. The `tags` field
+stays empty otherwise.
 
 ---
 
 ## 7. Image direction
 
-Format: 1080 x 1350 (4:5 portrait), which is the largest footprint a feed post gets.
+Format: 1080 x 1350, the largest footprint a feed post gets.
 
-House style, held consistent so the grid reads as one body of work:
+The first edition asked for mist, moor and fog, which produced a serene grid
+that contradicted the philosophy. This edition wants the ordinary and the
+lived-in, because that is where the framework locates value: a hangover
+breakfast, halogen lights over an industrial park, a friend's hand.
 
-- Natural subjects and natural light. Water, stone, fog, horizon, forest interior,
-  desert, sky, weathered human traces in landscape.
-- No people's faces. No recognizable individuals.
-- No text baked into the AI generation. Text is composited afterward, under our
-  control, so it is always spelled correctly and always legible.
-- Muted and desaturated. Deep shadow, one source of light. Nothing neon, nothing
-  synthetic-looking, nothing that reads as obviously AI.
-- Composition must leave a quiet zone, usually lower-center or upper-third, where the
-  type can sit without fighting the image.
-- Avoid the visual cliches of the genre: lotus flowers, silhouettes meditating on
-  cliff edges, mandalas, galaxies with a human silhouette, glowing third eyes.
+- Ordinary human spaces and traces. Kitchen tables, doorsteps, worn stairwells,
+  parked cars, laundry, roadside verges, lit windows, weather on glass.
+- Landscape is allowed but should feel inhabited rather than sublime.
+- No faces. No recognizable individuals. Hands are fine.
+- No text baked into the generation. Text is composited afterward.
+- Muted and desaturated, one light source, but not precious. Fluorescent and
+  sodium light are as valid as golden hour.
+- Composition must leave a quiet zone, usually lower-center, for the type.
+- Avoid entirely: lotus flowers, silhouettes meditating on cliffs, mandalas,
+  galaxies with a human figure, glowing third eyes, and the fog-and-moor
+  register the first edition over-used.
+- Backgrounds must be well exposed. Sources below mean luminance 12 are
+  rejected by the compositor, because normalizing them amplifies noise into
+  colored confetti rather than recovering a picture.
 
-Type treatment:
-- Serif, generous line spacing, centered, small caps or regular case, never all caps.
-- White or near-white on a soft dark scrim so it is legible at thumbnail size.
-- The scrim is a gradient, not a box.
-- Attribution set small, beneath, with real spacing above it.
+Type: serif, generous leading, centered, never all caps. Near-white on a
+gradient scrim, legible at thumbnail size.
 
 ---
 
 ## 8. What "good" looks like
 
-A post is working if a stranger would send it to one specific person they know.
-A post is failing if it could have come from any of the ten thousand other quote
-accounts. When a draft could plausibly appear on a generic mindfulness page, it gets
-rewritten or dropped.
+A post is working if a stranger would send it to one specific person.
+A post is failing if it could have come from any of the ten thousand other
+quote accounts. When a draft could plausibly appear on a generic mindfulness
+page, it gets rewritten or dropped. The first edition failed this test 21 times
+out of 21.

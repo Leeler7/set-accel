@@ -37,27 +37,49 @@ under Business settings → Accounts.
 
 ## 4. Create a Meta app
 
-developers.facebook.com → My Apps → Create App.
+developers.facebook.com → My Apps → **Create app**.
 
-- Use case: **Other**
-- App type: **Business**
-- Link it to the business portfolio from step 3
+1. App name (anything) and your contact email.
+2. **Business portfolio: select yours.** Do not skip this. A system user token can
+   only be issued against an app, so until the portfolio contains an app, the
+   Add button under System users refuses with "you must add an app as part of
+   your business portfolio". Connecting it later works too, from App settings →
+   Basic, or Business settings → Accounts → Apps → Add.
+3. Use case: **Other**, then Next.
+4. App type: **Business**, then Create app.
 
-Then add the **Instagram** product to the app.
+Then find **Instagram** in the product list and click **Set up**.
+
+Choose **Instagram API with Facebook Login**, not the Instagram Login variant.
+Meta's documentation is explicit that the Facebook Login path is the one
+required when the professional account is linked to a Facebook Page, which is
+the setup this pipeline assumes.
+
+### A note on permission names
+
+Meta is mid-rename. Depending on the login variant you may be offered the
+classic scopes (`instagram_basic`, `instagram_content_publish`,
+`pages_show_list`, `pages_read_engagement`) or the newer `instagram_business_*`
+equivalents. Either is fine. What matters is that the content-publish scope is
+included and the token works against your account ID.
 
 ## 5. Find your Instagram user ID
 
-Open the Graph API Explorer (developers.facebook.com/tools/explorer), select
-your app, and grant yourself `pages_show_list` and `instagram_basic`. Then run:
+Fastest route: Meta Business Suite → Business settings → Accounts → Instagram
+accounts. Select the account and read the **Instagram account ID**. It is a long
+number beginning `17841`. That is your `IG_USER_ID`, and its existence is itself
+proof that steps 1 and 2 worked, since the ID is only issued to a professional
+account linked to a Page.
+
+For this account it is `17841437849221933`.
+
+If you would rather confirm it through the API, in the Graph API Explorer with
+`pages_show_list` and `instagram_basic` granted:
 
     GET /me/accounts
-
-Find your Page in the response and copy its `id`. Then run:
-
     GET /{PAGE_ID}?fields=instagram_business_account
 
-The `instagram_business_account.id` in the response is your `IG_USER_ID`. It is
-a long number. Save it.
+An empty response there means the Page link never took. Redo step 2.
 
 ## 6. Generate an access token
 
@@ -101,6 +123,14 @@ repo two weeks before it dies, so you get warned rather than discovering it from
 a silent feed.
 
 ## 7. Add the two secrets and test
+
+### Shortcut for a first test
+
+The system user token is worth having, but it is not required to prove the
+pipeline works. Once the app exists, the Graph API Explorer will mint a
+short-lived user token in about a minute: select the app, click Generate Access
+Token, grant the publish scopes. It expires in an hour or two, which is fine for
+a test and lets you see a real post before doing the durable setup.
 
 In this repo: Settings → Secrets and variables → Actions → New repository secret.
 

@@ -32,9 +32,12 @@ BANNED = [
     "divine", "sacred", "the universe wants", "the universe is telling",
     "the universe has", "higher self", "spiritual awakening", "ascension",
     "soul purpose", "life force", "chakra", "aura", "cosmic plan",
-    "meant to be", "everything happens for a reason", "energy field",
+    "was meant to be", "were meant to be", "everything happens for a reason", "energy field",
     "spiritual energy", "sacred geometry", "third eye", "raise your frequency",
+    "inner peace", "let go of", "surrender to", "trust the process",
 ]
+# The framework holds that depth requires difficulty and rejects a frictionless
+# ideal, so serenity-as-goal language misrepresents it just as badly as woo does.
 # Note: bare "manifest" is deliberately NOT banned. Wittgenstein's 6.522 in the
 # Ogden translation reads "they make themselves manifest", which is exactly the
 # register this account wants. Only the wellness senses are blocked.
@@ -46,10 +49,14 @@ IMPERATIVE_OPENERS = (
     "list ", "share ", "try ",
 )
 
+# Second edition, rebuilt from Lee's own material. The first edition's
+# "Attention as Practice" and "Against Borrowed Certainty" were extrapolations
+# that appear nowhere in the framework, and it omitted reciprocity, vulnerable
+# connection, and the obligation attaching to power.
 PILLARS = {
-    "The Ground", "Honest Uncertainty", "The Weight of Experience",
-    "Widening the Circle", "Attention as Practice",
-    "Against Borrowed Certainty", "Living It",
+    "The Ground", "Meaning Without Knowing", "The Cost of Depth",
+    "Who Else Is In Here", "Reciprocity", "The Cost of Comfort",
+    "Power and Indifference",
 }
 
 # Instagram capped hashtags at 5 per post in December 2025.
@@ -167,9 +174,11 @@ def main() -> int:
     if total:
         pct_original = 100 * kinds.get("original", 0) / total
         print(f"mix: {kinds.get('original', 0)} original / {kinds.get('sourced', 0)} sourced "
-              f"({pct_original:.0f}% original, target ~60%)")
-        if not 45 <= pct_original <= 75:
-            warnings.append(f"original share is {pct_original:.0f}%, drifting from the 60% target")
+              f"({pct_original:.0f}% original, target ~70%)")
+        # Higher than the first edition's 60% because Lee's own writing is now the
+        # primary source and, by his decision, posts unattributed as original.
+        if not 55 <= pct_original <= 85:
+            warnings.append(f"original share is {pct_original:.0f}%, drifting from the 70% target")
 
     pillar_counts = Counter(p.get("pillar") for p in posts)
     spread = max(pillar_counts.values()) - min(pillar_counts.values()) if pillar_counts else 0
