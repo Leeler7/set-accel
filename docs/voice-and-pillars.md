@@ -205,29 +205,52 @@ Roughly 70 to 130 words:
 
 ## 5. Hashtags
 
-Instagram capped hashtags at 5 per post in December 2025, reported consistently
-across industry sources though not confirmed in Meta's own developer docs. The
-system uses 5, which is safe under either rule.
+Instagram capped hashtags at 5 per post in December 2025. Confirmed against
+current sources on 2026-08-28: it is a hard limit, and anything past the fifth
+tag is silently ignored rather than rejected. Caption and first-comment tags
+count against the same total, so moving them below the fold buys nothing.
 
-Post counts below are estimates and were not verifiable from this environment.
-Worth a manual check in the Instagram search bar once the account is live.
+**Tags are a classification signal now, not a discovery lever.** They tell
+Instagram what the post is about so it can route it to people whose behaviour
+suggests interest. This inverts the old instinct: a generic tag does not widen
+the net, it blurs the label. `#fyp`, `#life`, `#love` and the rest describe
+nothing, route nowhere, and consume a slot that a precise tag would have used
+to reach someone who actually reads philosophy. `#fyp` in particular is a
+TikTok convention and has never been an Instagram discovery mechanism.
 
-Composition: 1 identity, 2 niche, 1 topic, 1 broad.
+The section 8 test applies here too. If the tag row could sit under a generic
+inspiration account, it is wrong.
 
-**Identity (always)**
+Composition: 1 identity, 1 broad, 3 matched to the post.
+
+The second slot is deliberately a high-traffic *accurate* tag rather than
+another specialism. The launch batch skewed academic, leaning on
+`#phenomenology`, `#consciousnessstudies` and `#appliedethics`, which are
+precise but nearly unbrowsed, and it never once used `#philosophyquotes`
+despite that being a plain description of what this account posts. Reach that
+costs no honesty is the only kind worth taking.
+
+Use `#philosophyquotes` on genuine quotations and `#philosophy` on original
+lines, so the tag stays literally true.
+
+**Identity (always, slot 1)**
 `#agnosticexperientialism`
 
-**Niche (pick 2, matched to the pillar)**
-`#philosophyofmind` `#epistemology` `#consciousnessstudies` `#phenomenology`
-`#existentialism` `#moralphilosophy` `#ethics` `#secularhumanism`
-`#deepquestions` `#absurdism` `#skepticism` `#appliedethics`
+**Broad (slot 2)**
+`#philosophyquotes` for sourced quotations, `#philosophy` for original lines.
+`#deepthoughts` where neither fits.
 
-**Topic (pick 1)**
-`#uncertainty` `#reciprocity` `#empathy` `#mortality` `#vulnerability`
-`#autonomy` `#consent` `#meaningmaking` `#perception` `#justice`
+**Matched to the post (slots 3 to 5)**
+`#existentialism` `#moralphilosophy` `#ethics` `#philosophyofmind`
+`#consciousness` `#perception` `#uncertainty` `#meaningmaking` `#empathy`
+`#reciprocity` `#vulnerability` `#justice` `#consent` `#attention`
+`#absurdism` `#skepticism` `#mortality` `#autonomy`
 
-**Broad (pick 1)**
-`#philosophy` `#consciousness` `#ethics` `#thoughtoftheday` `#criticalthinking`
+Retired as too specialised to earn a slot: `#phenomenology`,
+`#consciousnessstudies`, `#appliedethics`, `#epistemology`, `#deepquestions`,
+`#secularhumanism`, `#thoughtoftheday`, `#criticalthinking`. Nothing was wrong
+with them except that almost nobody browses them, and `#ethics` or
+`#philosophy` reaches the same reader.
 
 ---
 
