@@ -1,0 +1,110 @@
+name: Weekly reel
+
+# One Reel a week, cut from a line that has already run in the feed. Reels are
+# the surface Instagram actually distributes, so this is the reach experiment;
+# the daily 4:5 post remains the account's identity and is untouched by it.
+#
+# Wednesday midday, deliberately nowhere near the 07:30 and 11:30 daily runs,
+# so a reel publish and a feed publish never contend for the same queue file.
+on:
+  schedule:
+    - cron: "0 16 * * 3"   # 12:00 America/New_York during EDT
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render and print the caption without publishing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet pillow
+
+      - name: Check ffmpeg is present
+        run: ffmpeg -version | head -1
+
+      - name: Validate the queue
+        run: python3 tools/validate.py
+
+      - name: Work out which post is due a reel
+        id: due
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          data = json.load(open("queue/queue.json", encoding="utf-8"))
+          due = sorted(
+              (p for p in data["posts"]
+               if p.get("reel") and p.get("status") == "posted"
+               and not p.get("reel_media_id")),
+              key=lambda p: p["date"],
+          )
+          print(f"date={due[0]['date'] if due else ''}")
+          PY
+
+      # reel.py has no staleness check of its own, and ffmpeg output is not
+      # byte-reproducible, so re-rendering an existing reel would produce a
+      # pointless commit every week.
+      - name: Render the reel
+        if: steps.due.outputs.date != ''
+        run: |
+          if [[ -f "reels/${{ steps.due.outputs.date }}.mp4" ]]; then
+            echo "reel already rendered"
+          else
+            python3 tools/reel.py --date "${{ steps.due.outputs.date }}"
+          fi
+
+      # Instagram fetches the video from raw.githubusercontent.com, so it has
+      # to be committed and served before the container is created. Push here,
+      # publish in the next step, never the other way round.
+      - name: Commit the reel
+        if: steps.due.outputs.date != ''
+        run: |
+          if [[ -z "$(git status --porcelain reels)" ]]; then
+            echo "reel already committed"
+            exit 0
+          fi
+          git config user.name "set.accel bot"
+          git config user.email "actions@github.com"
+          git add reels
+          git commit -m "render reel ${{ steps.due.outputs.date }}"
+          git pull --rebase --autostash
+          git push
+
+      - name: Publish
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: python3 tools/publish_reel.py
+
+      - name: Commit the updated queue and log
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [[ -z "$(git status --porcelain queue posted)" ]]; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name "set.accel bot"
+          git config user.email "actions@github.com"
+          git add queue posted
+          git commit -m "posted reel $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash
+          git push

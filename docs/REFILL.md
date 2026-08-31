@@ -120,6 +120,21 @@ It must finish green **and** print no `NO PHOTOGRAPH` warning. That warning
 means a background was rejected and the post will publish as a bare gradient.
 If it appears, regenerate that background and push again.
 
+## 7b. Flag one line a week for a Reel
+
+Add `"reel": true` to roughly one post per seven, chosen on merit: the line
+that would stop someone scrolling, not the one that fits a rota. Reels are the
+surface Instagram actually distributes, so this is the only reach lever the
+account has that costs nothing.
+
+`.github/workflows/weekly-reel.yml` picks the oldest flagged post that has
+already run in the feed, renders it vertically with `tools/reel.py`, commits
+the MP4, and publishes it. Nothing else needs doing.
+
+Sourced quotations tend to carry a Reel better than original lines, because
+the attribution gives a stranger a reason to trust the frame in the two
+seconds before they scroll past.
+
 ## 8. Report
 
 State plainly: how many posts were added, the date range, the new runway, any
