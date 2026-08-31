@@ -21,6 +21,12 @@ on:
   push:
     paths:
       - "queue/queue.json"
+      # The compositor is part of the fingerprint, so a change here restyles
+      # every unpublished image. Without these paths that re-render waited for
+      # the next unrelated queue edit, which is how a compose.py change that
+      # broke every single render sat green until a hashtag commit surfaced it.
+      - "tools/compose.py"
+      - "tools/ingest.py"
 
 permissions:
   contents: write

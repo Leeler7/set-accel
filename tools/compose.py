@@ -389,7 +389,15 @@ def render_text(img: Image.Image, text: str, attribution: str | None, handle: st
 # ---------------------------------------------------------------- main
 
 def build(text: str, out: str, background: str | None = None,
-          attribution: str | None = None, handle: str | None = None) -> str:
+          attribution: str | None = None, handle: str | None = None) -> tuple[str, bool]:
+    """
+    Render one post. Returns (path, used_fallback).
+
+    The caller needs used_fallback because a post that quietly renders as a
+    generated gradient still looks like a success: a file appears, publishing
+    works, and nobody finds out the photograph was dropped until the grid shows
+    one flat rectangle among twenty photographs.
+    """
     img, is_fallback = load_background(background, text)
     if not is_fallback:
         img = house_treatment(img)
@@ -406,7 +414,7 @@ def build(text: str, out: str, background: str | None = None,
     os.makedirs(os.path.dirname(os.path.abspath(out)) or ".", exist_ok=True)
     # JPEG is the only format the Instagram publishing API accepts.
     img.save(out, "JPEG", quality=92, optimize=True, progressive=False, subsampling=0)
-    return out
+    return out, is_fallback
 
 
 def main() -> None:
@@ -418,9 +426,10 @@ def main() -> None:
     ap.add_argument("--handle", default=None)
     args = ap.parse_args()
 
-    path = build(args.text, args.out, args.background, args.attribution, args.handle)
+    path, used_fallback = build(args.text, args.out, args.background, args.attribution, args.handle)
     size = os.path.getsize(path)
-    print(f"[compose] wrote {path} ({size/1024:.0f} KB)")
+    note = "  (generated gradient, no photograph)" if used_fallback else ""
+    print(f"[compose] wrote {path} ({size/1024:.0f} KB){note}")
     if size > 8 * 1024 * 1024:
         print("[compose] WARNING: over Instagram's 8MB image ceiling", file=sys.stderr)
 

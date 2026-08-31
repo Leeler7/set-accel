@@ -140,6 +140,17 @@ def main() -> int:
         print(f"::warning::{len(fell_back)} post(s) rendered without a photograph "
               f"({', '.join(fell_back)}). Regenerate the background, asking for dusk "
               f"with visible shadow detail rather than night.")
+
+    # One bad image must not block the queue, so individual failures stay a
+    # warning. Everything failing is a different animal: it means the
+    # compositor itself is broken, not that one background was unusable. That
+    # used to exit 0 and paint the run green, which is how a release where
+    # build() changed shape and every single render raised TypeError still
+    # reported success.
+    if failed and not built:
+        print(f"::error::every image failed to build ({failed} of {failed}). "
+              f"This is a compositor failure, not a bad background.")
+        return 1
     return 0
 
 
