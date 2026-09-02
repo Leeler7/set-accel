@@ -208,7 +208,9 @@
       "image_prompt": "A cluttered kitchen the morning after a party, unwashed glasses and plates stacked in the sink, hard flat daylight through a window above, crumpled napkin on the counter, no people, unglamorous and specific, muted neutral tones, well exposed, quiet empty space in the lower center, documentary photography, medium format film, fine grain, no text, no watermark",
       "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_135046_a4a058b7-9d84-43fa-9770-e7db24cc54cc.png",
       "image_file": "images/2026-09-02.jpg",
-      "status": "pending"
+      "status": "posted",
+      "posted_at": "2026-09-02T15:13:23.306669+00:00",
+      "media_id": "18113376709787860"
     },
     {
       "date": "2026-09-03",
