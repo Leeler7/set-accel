@@ -237,7 +237,9 @@
       "image_prompt": "A multi-storey car park at dusk, rows of parked cars under low concrete ceilings and strip lighting, one distant vehicle with its headlights on, no people visible, ordinary and anonymous, muted concrete grey with warm lamp spill, well exposed, quiet empty space in the lower center, documentary photography, medium format film, fine grain, no text, no watermark",
       "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FDmN99UF38yR3SvEd0nfy1cUsf/hf_20260826_135046_1ab8ed15-765b-4262-a008-d5168c7f3315.png",
       "image_file": "images/2026-09-03.jpg",
-      "status": "pending"
+      "status": "posted",
+      "posted_at": "2026-09-03T15:08:02.717142+00:00",
+      "media_id": "17945248482064200"
     },
     {
       "date": "2026-09-04",
